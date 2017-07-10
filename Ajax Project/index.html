@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form class="form-container" id="form-container" name="form-container">
+        <label for="street">Street:</label> <input id="street" type="text" value="">
+        <label for="city">City:</label> <input id="city" type="text" value="">
+        <button id="submit-btn">Submit</button>
+    </form>
+    <hr>
+    <h2 class="greeting" id="greeting">Where do you want to live?</h2>
+    <div class="wikipedia-container">
+        <h3 id="wikipedia-header">Relevant Wikipedia Links</h3>
+        <div id="wikipedia-links" style="margin-left: 2em">
+            Type in an address above and find relevant Wikipedia articles here!
+        </div>
+    </div>
+    <div class="nytimes-container">
+        <h3 id="nytimes-header">New York Times Articles</h3>
+        <div class="article-list" id="nytimes-articles" style="margin-left: 2em">
+            What's going on in your new city? Enter an address and hit submit and the NY
+            Times will tell you here!
+        </div>
+    </div>
+    <script src="js/libs/jquery.min.js">
+    </script>
+    <script src="js/script.js">
+    </script>
+    <footer>
+        <div class="flex-box center-text" style=
+        "font-weight: bolder; color: teal; font-family: &quot;Handlee&quot;,sans-serif;text-align:center;">
+            Copyright&#169;Pritesh Jakhotia
+        </div>
+    </footer>
+</body>
+</html>
